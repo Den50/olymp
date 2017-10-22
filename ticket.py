@@ -1,3 +1,9 @@
+"""
+
+Школьная олимпиада по информатике
+
+"""
+
 import math
 STR = input()
 def summ(str):

@@ -1,6 +1,7 @@
 """
 
 Решение олимпиады по информатике hse
+https://olymp.hse.ru/data/2016/10/05/1122855045/%D0%94%D0%B5%D0%BC%D0%BE%20%D0%BE%D1%82%D0%B1%D0%BE%D1%80%D0%B0%202016-2017.pdf
 
 """
 
@@ -14,8 +15,7 @@ def Regfirst(str):
 	return len(re.findall(first, str))
 
 def Regmiddle(str):
-	_str = str.replace('/', 'r')
-	_str = _str.replace('\\', 'l')
+	_str = str.replace('/', 'r').replace('\\', 'l')
 	ren = 0
 	arr = re.findall(middle, _str)
 	j = 0

@@ -1,3 +1,4 @@
+#http://codeforces.com/problemset/problem/892/A
 n = int(input())
 arrNow = list(map(int, input().split()))
 arrFull = list(map(int, input().split()))

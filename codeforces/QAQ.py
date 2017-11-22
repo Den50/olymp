@@ -1,3 +1,4 @@
+#http://codeforces.com/problemset/problem/894/A
 str1 = input()
 tmp = "QAQ"
 def main():
